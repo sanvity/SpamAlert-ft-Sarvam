@@ -18,8 +18,15 @@ load_dotenv()
 
 
 def get_configured_api_key() -> Optional[str]:
-    """Retrieve SARVAM_API_KEY from environment without exposing or logging it."""
+    """Retrieve SARVAM_API_KEY from environment or Streamlit secrets without exposing or logging it."""
     key = os.getenv("SARVAM_API_KEY", "").strip()
+    if not key:
+        try:
+            import streamlit as st
+            if hasattr(st, "secrets") and "SARVAM_API_KEY" in st.secrets:
+                key = str(st.secrets["SARVAM_API_KEY"]).strip()
+        except Exception:
+            pass
     return key if key else None
 
 
