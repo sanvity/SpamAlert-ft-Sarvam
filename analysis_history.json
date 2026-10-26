@@ -1,0 +1,387 @@
+[
+  {
+    "id": "log_1793035298",
+    "timestamp": "26 Oct 2026, 10:51 PM",
+    "language": "en-IN",
+    "transcript": "Join just search Sarvam Discord on Google you will get the first link join that.",
+    "translation": "Join just search Sarvam Discord on Google you will get the first link join that.",
+    "report": {
+      "risk_level": "Medium",
+      "why_flagged": "The message instructs users to search for a specific Discord server on Google, which is a common social engineering tactic to direct victims to unofficial or malicious communities.",
+      "suspicious_evidence": [
+        {
+          "phrase": "Join just search Sarvam Discord on Google you will get the first link join that.",
+          "explanation": "Directing users to search for a specific brand or entity on a public search engine to find a 'first link' can lead to phishing, impersonation, or malware distribution sites."
+        }
+      ],
+      "recommended_action": [
+        "Verify the official Sarvam Discord server through their verified website or official social media channels before joining.",
+        "Warn users against blindly clicking the top search result for brand-related queries, as it may lead to fraudulent clones."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035163",
+    "timestamp": "26 Oct 2026, 10:49 PM",
+    "language": "en-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aapka OTP bata dena, main unblock kar dunga.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The caller is impersonating a bank representative and requesting an OTP to unblock an account, which is a classic social engineering tactic used to steal credentials.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+          "explanation": "This is a direct attempt to solicit a one-time password (OTP) under the false pretense of unblocking a bank account, a hallmark of financial fraud."
+        }
+      ],
+      "recommended_action": [
+        "Immediately terminate the call and do not share any OTP or account details.",
+        "Contact your bank directly using the official customer care number on their website or passbook to verify your account status."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035161",
+    "timestamp": "26 Oct 2026, 10:49 PM",
+    "language": "en-IN",
+    "transcript": "If your laptop is infected, install this Robot Access app immediately, varna toh aapke bank account se 500 stolen ho jayenge.",
+    "translation": "If your laptop is infected, install this Robot Access app immediately, varna toh aapke bank account se 500 stolen ho jayenge.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The message uses fear-based social engineering to trick the user into installing a malicious application, threatening financial loss to create urgency.",
+      "suspicious_evidence": [
+        {
+          "phrase": "install this Robot Access app immediately",
+          "explanation": "Directs the user to download and install an unverified application, which is a common vector for malware and remote access fraud."
+        },
+        {
+          "phrase": "varna toh aapke bank account se 500 stolen ho jayenge",
+          "explanation": "Uses a classic Indian scam tactic of threatening a small, immediate financial loss to induce panic and bypass rational thinking."
+        }
+      ],
+      "recommended_action": [
+        "Do not install the 'Robot Access' app and immediately block the sender.",
+        "Run a full antivirus scan on your laptop and check your bank account for any unauthorized transactions."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035144",
+    "timestamp": "26 Oct 2026, 10:49 PM",
+    "language": "hi-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aap apne OTP ko bataiye, jisse ki main aapko unblock kar sakun.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "This is a classic social engineering scam where the attacker impersonates a bank official to steal the victim's OTP and gain unauthorized access to their account.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं",
+          "explanation": "Creates a false sense of urgency and panic by claiming the bank account is about to be blocked to manipulate the victim into complying."
+        },
+        {
+          "phrase": "OTP बता दीजिए मैं unblock कर दूँगी",
+          "explanation": "Directly asks for a confidential one-time password (OTP) under the guise of unblocking the account, which is a standard credential harvesting tactic."
+        }
+      ],
+      "recommended_action": [
+        "Immediately terminate the call and do not share any OTP or personal banking details.",
+        "Contact your bank directly using the official customer care number from their website or your debit card to verify if there is any actual issue with your account."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035142",
+    "timestamp": "26 Oct 2026, 10:49 PM",
+    "language": "hi-IN",
+    "transcript": "अपना bank account बता दीजिए मैं आपको OTP बता देती हूं unblock कर दूंगा।",
+    "translation": "Please tell me your bank account, I will give you the OTP and unblock it.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "This is a classic social engineering scam where the fraudster asks for sensitive banking credentials under the pretext of resolving an account issue.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अपना bank account बता दीजिए मैं आपको OTP बता देती हूं unblock कर दूंगा",
+          "explanation": "Legitimate bank representatives never ask customers for their account number or OTPs to unblock an account, making this a high-risk fraudulent request."
+        }
+      ],
+      "recommended_action": [
+        "Immediately refuse to share any personal or banking information with the caller.",
+        "Report the number to the National Cyber Crime Reporting Portal or your bank's official fraud helpline."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035028",
+    "timestamp": "26 Oct 2026, 10:47 PM",
+    "language": "hi-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aapka OTP bata dena, main unblock kar dunga.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The caller is impersonating a bank representative to request an OTP, which is a classic tactic used to steal financial credentials and compromise accounts.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+          "explanation": "This is a direct request for a sensitive one-time password (OTP) under the false pretense of blocking and unblocking a bank account."
+        }
+      ],
+      "recommended_action": [
+        "Immediately disconnect the call and do not share any OTPs or personal banking details.",
+        "Contact your bank directly using their official customer care number to verify if your account is actually at risk."
+      ]
+    }
+  },
+  {
+    "id": "log_1793035026",
+    "timestamp": "26 Oct 2026, 10:47 PM",
+    "language": "hi-IN",
+    "transcript": "अपना bank account बता दीजिए मैं आपको OTP बता देती हूं unblock कर दूंगा।",
+    "translation": "Please tell me your bank account, I will give you the OTP and unblock it.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The speaker is requesting sensitive financial details and offering to share an OTP, which is a classic social engineering tactic used in banking fraud.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अपना bank account बता दीजिए मैं आपको OTP बता देती हूं unblock कर दूंगा",
+          "explanation": "Asking for bank account details and promising to share an OTP is a hallmark of identity theft and unauthorized access scams."
+        }
+      ],
+      "recommended_action": [
+        "Immediately block the contact and do not share any banking details or OTPs.",
+        "Report the number to your bank's official fraud helpline and the national cybercrime portal."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034926",
+    "timestamp": "26 Oct 2026, 10:45 PM",
+    "language": "en-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aap apne OTP ko bataiye, jisse ki main aapko unblock kar sakun.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The speaker is impersonating a bank representative to trick the victim into revealing their OTP, which is a classic account takeover scam.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी",
+          "explanation": "This is a highly common social engineering tactic where scammers create a false sense of urgency regarding a blocked account to extract sensitive verification codes."
+        }
+      ],
+      "recommended_action": [
+        "Immediately block the caller's number and report it to the National Cyber Crime Reporting Portal.",
+        "Advise the victim never to share their OTP with anyone over the phone, as legitimate banks will never ask for it."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034924",
+    "timestamp": "26 Oct 2026, 10:45 PM",
+    "language": "en-IN",
+    "transcript": "It's a work from job, five thousand pay karna hai.",
+    "translation": "It's a work from job, five thousand pay karna hai.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The phrasing 'work from job' is a common linguistic marker in Indian fraud schemes, typically used to solicit upfront payments for non-existent remote work opportunities.",
+      "suspicious_evidence": [
+        {
+          "phrase": "work from job",
+          "explanation": "This grammatically incorrect phrase is a recognized red flag in Indian cyber fraud, often used to disguise advance-fee scams promising remote employment."
+        },
+        {
+          "phrase": "five thousand pay karna hai",
+          "explanation": "Demanding an upfront payment of 5,000 INR for a job is a classic hallmark of employment fraud, as legitimate employers do not ask candidates to pay to secure a position."
+        }
+      ],
+      "recommended_action": [
+        "Do not share any personal or financial information, and do not make the requested payment.",
+        "Report the contact details and the message to the National Cyber Crime Reporting Portal (cybercrime.gov.in)."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034814",
+    "timestamp": "26 Oct 2026, 10:43 PM",
+    "language": "hi-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aap apne OTP ko bataiye, jisse main aapko unblock kar sakun.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The caller is impersonating a bank official to solicit an OTP, which is a classic method for unauthorized account takeover.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+          "explanation": "This is a standard social engineering tactic used by fraudsters to create panic and trick the victim into revealing sensitive authentication credentials."
+        }
+      ],
+      "recommended_action": [
+        "Immediately block the caller's number and do not share any OTPs or personal banking details.",
+        "Contact your bank directly using the official customer care number on your debit card or passbook to verify if your account is actually compromised."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034812",
+    "timestamp": "26 Oct 2026, 10:43 PM",
+    "language": "hi-IN",
+    "transcript": "work from home job है 500 कमा सकते हो दिन का 1000 pay कर दो आज registration free है।",
+    "translation": "Work from home job, you can earn 500. Pay 1000 per day. Registration is free today.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The transcript uses classic advance-fee fraud tactics by promising high daily returns for a free registration, which is a common lure to extract money from victims.",
+      "suspicious_evidence": [
+        {
+          "phrase": "500 कमा सकते हो दिन का",
+          "explanation": "Promises unusually high daily income for a work-from-home role, a typical hallmark of fraudulent job offers."
+        },
+        {
+          "phrase": "1000 pay कर दो",
+          "explanation": "Demands an upfront payment from the victim, which is a red flag for advance-fee scams."
+        },
+        {
+          "phrase": "registration free है",
+          "explanation": "Uses the bait of a 'free' offer to lower the victim's guard and encourage them to engage with the scam."
+        }
+      ],
+      "recommended_action": [
+        "Block the contact number or account immediately and do not share any personal or financial details.",
+        "Report the message to the National Cyber Crime Reporting Portal (cybercrime.gov.in) or local law enforcement."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034776",
+    "timestamp": "26 Oct 2026, 10:42 PM",
+    "language": "hi-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aap apne OTP ko bataiye, jisse main aapko unblock kar sakun.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The caller is impersonating a bank representative to solicit an OTP under the false pretense of unblocking an account, which is a classic financial fraud tactic.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी",
+          "explanation": "This is a direct social engineering attempt to extract a One-Time Password (OTP) by creating a false sense of urgency regarding a blocked bank account."
+        }
+      ],
+      "recommended_action": [
+        "Immediately hang up and do not share any OTP or personal banking details.",
+        "Contact your bank directly using the official customer service number from their website or passbook to verify your account status."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034773",
+    "timestamp": "26 Oct 2026, 10:42 PM",
+    "language": "hi-IN",
+    "transcript": "work from home job है daily 5000 कमा सकते हो बस पहले 1000 का registration fee pay कर दो and then we will get you started.",
+    "translation": "It's a work from home job. You can earn 5000 daily. Just pay the registration fee of 1000 first and then we will get you started.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "This transcript exhibits classic advance-fee fraud indicators, promising high daily returns in exchange for an upfront registration payment.",
+      "suspicious_evidence": [
+        {
+          "phrase": "daily 5000 कमा सकते हो बस पहले 1000 का registration fee pay कर दो",
+          "explanation": "Promises high guaranteed daily income while demanding an upfront payment, which is a hallmark of fraudulent job scams."
+        }
+      ],
+      "recommended_action": [
+        "Do not pay any registration fees for unsolicited work-from-home job offers.",
+        "Report the contact details and message to local cybercrime authorities."
+      ]
+    }
+  },
+  {
+    "id": "log_1793034752",
+    "timestamp": "26 Oct 2026, 10:42 PM",
+    "language": "hi-IN",
+    "transcript": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी।",
+    "translation": "Amma bank account ko block karne ke liye, aap apne OTP ko bataiye, jisse ki main aapko unblock kar sakun.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "The caller is impersonating a bank representative to trick the victim into revealing their OTP under the false pretense of unblocking an account.",
+      "suspicious_evidence": [
+        {
+          "phrase": "अम्मा bank account block होने वाले हैं OTP बता दीजिए मैं unblock कर दूँगी",
+          "explanation": "This is a classic social engineering tactic where the fraudster creates a false sense of urgency regarding a blocked account to extract sensitive credentials."
+        }
+      ],
+      "recommended_action": [
+        "Advise the recipient to immediately hang up and contact their bank directly using the official customer service number.",
+        "Warn the recipient never to share OTPs or personal information with unsolicited callers."
+      ]
+    }
+  },
+  {
+    "id": "log_hindi_bijli",
+    "timestamp": "26 Oct 2026, 10:15 PM",
+    "language": "Hindi (hi-IN)",
+    "transcript": "प्रिय ग्राहक, आपका बिजली कनेक्शन आज रात काट दिया जाएगा। तुरंत एपीके डाउनलोड करें bit.ly/bijli-pay",
+    "translation": "Dear customer, your electricity connection will be cut tonight. Download APK immediately bit.ly/bijli-pay",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "Threatens immediate utility disconnection and instructs downloading an untrusted .apk file via a shortened bit.ly URL.",
+      "suspicious_evidence": [
+        {
+          "phrase": "बिजली कनेक्शन आज रात काट दिया जाएगा",
+          "explanation": "Manufactures urgency to induce panic so the victim acts without verifying."
+        },
+        {
+          "phrase": "एपीके डाउनलोड करें bit.ly/bijli-pay",
+          "explanation": "Electricity departments never distribute .apk files; this is malicious Android malware used to steal banking OTPs."
+        }
+      ],
+      "recommended_action": [
+        "Do NOT click the link or download any .apk file.",
+        "Never contact numbers or follow links sent via unofficial SMS.",
+        "Verify your electricity bill status only through the official Discom portal or app.",
+        "Report the sender to the National Cyber Crime Helpline at 1930."
+      ]
+    }
+  },
+  {
+    "id": "log_hinglish_upi",
+    "timestamp": "26 Oct 2026, 09:45 PM",
+    "language": "Hinglish (hi-Latn)",
+    "transcript": "Badhaai ho! Aapko PhonePe pe ₹4,999 cashback mila hai. Paisa lene ke liye link pe click karein aur UPI PIN enter karein.",
+    "translation": "Congratulations! You have received a ₹4,999 cashback reward on PhonePe. Click the link to receive money and enter your UPI PIN.",
+    "report": {
+      "risk_level": "High",
+      "why_flagged": "Classic UPI reverse pay trap asking user to enter a UPI PIN to receive money or rewards.",
+      "suspicious_evidence": [
+        {
+          "phrase": "UPI PIN enter karein",
+          "explanation": "UPI PIN is only for SENDING money. Entering your PIN will instantly deduct money from your bank account."
+        },
+        {
+          "phrase": "₹4,999 cashback mila hai",
+          "explanation": "Unsolicited cash reward bait used to deceive users into authorizing a fraudulent collect request."
+        }
+      ],
+      "recommended_action": [
+        "Do NOT enter your UPI PIN on any request, link, or scratch card.",
+        "Decline any collect request in your UPI app immediately.",
+        "Report and block the sender on WhatsApp/SMS and on Sanchar Saathi (Chakshu).",
+        "If PIN was entered, contact your bank immediately to freeze your account."
+      ]
+    }
+  },
+  {
+    "id": "log_benign_bank",
+    "timestamp": "26 Oct 2026, 08:30 PM",
+    "language": "English (en-IN)",
+    "transcript": "Dear Customer, INR 450.00 debited from account for Swiggy Bangalore on 26 October. If not done by you, call 1800-11-2211.",
+    "translation": "Dear Customer, INR 450.00 debited from account for Swiggy Bangalore on 26 October. If not done by you, call 1800-11-2211.",
+    "report": {
+      "risk_level": "Low",
+      "why_flagged": "Standard regulatory bank debit confirmation with legitimate merchant details and official toll-free dispute number. No requests for OTP, PIN, or external link downloads.",
+      "suspicious_evidence": [],
+      "recommended_action": [
+        "If you made this purchase on Swiggy, no action is needed.",
+        "If you did NOT authorize this debit, call the official bank toll-free number (1800-11-2211) immediately to block your card/UPI."
+      ],
+      "uncertainty_note": "A Low risk rating is an indicator of typical legitimate communications, not a guarantee of safety. Always verify senders and transactions independently."
+    }
+  }
+]
